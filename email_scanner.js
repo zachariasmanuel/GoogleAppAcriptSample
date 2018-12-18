@@ -51,6 +51,7 @@ function extractEmails(threads) {
             email = el;
         }
         return [name, email];
+
     }).filter(function(d) {
         if (
             d[1] !== "zac@zachariasmanuel.com" &&
